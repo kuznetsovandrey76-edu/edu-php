@@ -1,6 +1,10 @@
 <?php
+	include 'init.php';
+	
 	if (!empty($_POST['password']) and !empty($_POST['login'])) {
 		
+
+
 		$login = $_POST['login'];
 		$password = $_POST['password'];
 		
@@ -14,7 +18,7 @@
 
             header('Location: /admin/'); die();
 		} else {
-
+			echo 'Bad';
         }
 	}
 ?>

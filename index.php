@@ -19,7 +19,7 @@ mysqli_query($link, "SET NAMES 'utf8'");
 if(isset($_GET['page'])) {
     $page = $_GET['page'];
 } else {
-    $page = 'index';
+    $page = '/';
 }
 
 
